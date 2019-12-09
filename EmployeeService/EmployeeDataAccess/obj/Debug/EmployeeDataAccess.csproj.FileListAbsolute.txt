@@ -1,0 +1,9 @@
+c:\users\thinksysuser\documents\visual studio 2017\Projects\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll.config
+c:\users\thinksysuser\documents\visual studio 2017\Projects\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll
+c:\users\thinksysuser\documents\visual studio 2017\Projects\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.pdb
+c:\users\thinksysuser\documents\visual studio 2017\Projects\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.dll
+c:\users\thinksysuser\documents\visual studio 2017\Projects\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\thinksysuser\documents\visual studio 2017\Projects\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.xml
+c:\users\thinksysuser\documents\visual studio 2017\Projects\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\thinksysuser\documents\visual studio 2017\Projects\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.dll
+c:\users\thinksysuser\documents\visual studio 2017\Projects\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.pdb
