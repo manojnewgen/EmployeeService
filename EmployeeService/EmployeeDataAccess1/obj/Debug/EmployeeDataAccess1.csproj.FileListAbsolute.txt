@@ -8,3 +8,13 @@ c:\users\thinksysuser\documents\visual studio 2017\Projects\EmployeeService\Empl
 c:\users\thinksysuser\documents\visual studio 2017\Projects\EmployeeService\EmployeeDataAccess1\obj\Debug\EmployeeDataAccess1.csprojResolveAssemblyReference.cache
 c:\users\thinksysuser\documents\visual studio 2017\Projects\EmployeeService\EmployeeDataAccess1\obj\Debug\EmployeeDataAccess1.dll
 c:\users\thinksysuser\documents\visual studio 2017\Projects\EmployeeService\EmployeeDataAccess1\obj\Debug\EmployeeDataAccess1.pdb
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Debug\EmployeeDataAccess1.dll.config
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Debug\EmployeeDataAccess1.dll
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Debug\EmployeeDataAccess1.pdb
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Debug\EntityFramework.dll
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Debug\EntityFramework.SqlServer.dll
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Debug\EntityFramework.xml
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Debug\EntityFramework.SqlServer.xml
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\obj\Debug\EmployeeDataAccess1.csprojResolveAssemblyReference.cache
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\obj\Debug\EmployeeDataAccess1.dll
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\obj\Debug\EmployeeDataAccess1.pdb
