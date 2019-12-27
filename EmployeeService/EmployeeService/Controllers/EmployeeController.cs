@@ -10,16 +10,27 @@ namespace EmployeeService.Controllers
 {
     public class EmployeeController : ApiController
     {
-        public IEnumerable<Employee> Get() {
+        [HttpGet]
+        public HttpResponseMessage LoadEmployeeData(string gender="ALL") {
 
             using(EmployeeDBEntities enitites=new EmployeeDBEntities())
             {
-                return enitites.Employees.ToList();
+                switch (gender.ToLower())
+                {
+                    case "all":
+                        return Request.CreateResponse(HttpStatusCode.OK, enitites.Employees.ToList());
+                    case "male":
+                        return Request.CreateResponse(HttpStatusCode.OK, enitites.Employees.Where(e=>e.Gender.ToLower()== "male").ToList());
+                    case "female":
+                        return Request.CreateResponse(HttpStatusCode.OK, enitites.Employees.Where(e => e.Gender.ToLower() == "female").ToList());
+                    default: return Request.CreateErrorResponse(HttpStatusCode.BadRequest, $"Value for gender must be ALL, Female and Male your query string for gender is ={gender} ");
+
+                }
             }
 
         }
-
-        public HttpResponseMessage Get(int id)
+        [HttpGet]
+        public HttpResponseMessage LoadEmployeeByID(int id)
         {
             using (EmployeeDBEntities enitites = new EmployeeDBEntities())
             {
@@ -54,6 +65,66 @@ namespace EmployeeService.Controllers
             {
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
             }
+        }
+
+        public HttpResponseMessage Delete(int id)
+        {
+            using (EmployeeDBEntities enitites = new EmployeeDBEntities())
+            {
+                try
+                {
+                    var en = enitites.Employees.FirstOrDefault(e => e.ID == id);
+                    if (en == null)
+                    {
+                        return Request.CreateErrorResponse(HttpStatusCode.NotFound, $"record with id: {id} not found");
+                    }
+                    else
+                    {
+                        enitites.Employees.Remove(en);
+                        enitites.SaveChanges();
+                        return Request.CreateResponse(HttpStatusCode.OK);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+
+                         
+                }
+               
+               
+            }
+        }
+
+        public HttpResponseMessage Put([FromBody]int id, [FromUri]Employee employee)
+        {
+            try
+            {
+                using (EmployeeDBEntities entities = new EmployeeDBEntities())
+                {
+                    var entity = entities.Employees.FirstOrDefault(e => e.ID == id);
+
+                    if (entity == null)
+                        return Request.CreateErrorResponse(HttpStatusCode.NotFound, $"Employee with ID={id} not found");
+                    else
+                    {
+                        entity.FirstName = employee.FirstName;
+                        entity.LastName = employee.LastName;
+                        entity.Gender = employee.Gender;
+                        entity.Salary = employee.Salary;
+
+                        entities.SaveChanges();
+
+                        return Request.CreateResponse(HttpStatusCode.OK, entity);
+                    }
+
+                }
+            }
+            catch(Exception ex)
+            {
+               return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+            }
+           
         }
     }
 }
