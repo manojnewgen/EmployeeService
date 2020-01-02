@@ -158,3 +158,5 @@ E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeServ
 E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeService\obj\Debug\EmployeeService.csprojResolveAssemblyReference.cache
 E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeService\obj\Debug\EmployeeService.dll
 E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeService\obj\Debug\EmployeeService.pdb
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeService\bin\WebApiContrib.Formatting.Jsonp.dll
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeService\bin\WebApiContrib.Formatting.Jsonp.pdb

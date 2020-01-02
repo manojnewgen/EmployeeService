@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http.Formatting;
 using System.Web.Http;
 using System.Net.Http.Headers;
+using WebApiContrib.Formatting.Jsonp;
 
 namespace EmployeeService
 {
@@ -36,12 +37,15 @@ namespace EmployeeService
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-            config.Formatters.Add(new CustomJsonFormatter());
+            //config.Formatters.Add(new CustomJsonFormatter());
             //config.Formatters.Remove(config.Formatters.XmlFormatter);
             //config.Formatters.Remove(config.Formatters.JsonFormatter);
             config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("text/html"));
             config.Formatters.JsonFormatter.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
             config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver();
+            var JsonPFormatter = new JsonpMediaTypeFormatter(config.Formatters.JsonFormatter);
+            config.Formatters.Add(JsonPFormatter);
         }
+       
     }
 }
