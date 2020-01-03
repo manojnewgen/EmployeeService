@@ -57,6 +57,5 @@ E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\GetAllEmploy
 E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\GetAllEmployee\bin\Microsoft.AI.ServerTelemetryChannel.xml
 E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\GetAllEmployee\bin\Microsoft.AI.WindowsServer.xml
 E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\GetAllEmployee\bin\Microsoft.AI.Web.xml
-E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\GetAllEmployee\obj\Debug\GetAllEmployee.csprojResolveAssemblyReference.cache
 E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\GetAllEmployee\obj\Debug\GetAllEmployee.dll
 E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\GetAllEmployee\obj\Debug\GetAllEmployee.pdb

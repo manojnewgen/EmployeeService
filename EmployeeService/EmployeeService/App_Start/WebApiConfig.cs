@@ -28,7 +28,10 @@ namespace EmployeeService
             // Web API configuration and services
 
             // Web API routes
+
             config.MapHttpAttributeRoutes();
+
+            //config.Filters.Add(new RequiredHttpsAttributes());
 
             
 
@@ -43,8 +46,8 @@ namespace EmployeeService
             config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("text/html"));
             config.Formatters.JsonFormatter.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
             config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver();
-            var JsonPFormatter = new JsonpMediaTypeFormatter(config.Formatters.JsonFormatter);
-            config.Formatters.Add(JsonPFormatter);
+            //var JsonPFormatter = new JsonpMediaTypeFormatter(config.Formatters.JsonFormatter);
+            //config.Formatters.Add(JsonPFormatter);
         }
        
     }

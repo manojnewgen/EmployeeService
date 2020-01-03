@@ -1,0 +1,10 @@
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Release\EmployeeDataAccess1.dll.config
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Release\EmployeeDataAccess1.dll
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Release\EmployeeDataAccess1.pdb
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Release\EntityFramework.dll
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Release\EntityFramework.SqlServer.dll
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Release\EntityFramework.xml
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Release\EntityFramework.SqlServer.xml
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\obj\Release\EmployeeDataAccess1.csprojResolveAssemblyReference.cache
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\obj\Release\EmployeeDataAccess1.dll
+E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\obj\Release\EmployeeDataAccess1.pdb

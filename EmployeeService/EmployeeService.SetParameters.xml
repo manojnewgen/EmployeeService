@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="EmployeeService" />
+  <setParameter name="EmployeeDBEntities-Web.config Connection String" value="metadata=res://*/EmployeeDataModel.csdl|res://*/EmployeeDataModel.ssdl|res://*/EmployeeDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=CPU0118\SQLEXPRESS;initial catalog=EmployeeDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" />
+</parameters>

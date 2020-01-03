@@ -15,6 +15,5 @@ E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeData
 E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Debug\EntityFramework.SqlServer.dll
 E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Debug\EntityFramework.xml
 E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\bin\Debug\EntityFramework.SqlServer.xml
-E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\obj\Debug\EmployeeDataAccess1.csprojResolveAssemblyReference.cache
 E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\obj\Debug\EmployeeDataAccess1.dll
 E:\Manoj\C#Projects\EmployeeService\EmployeeService\EmployeeService\EmployeeDataAccess1\obj\Debug\EmployeeDataAccess1.pdb
