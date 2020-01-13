@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  employeeservice:
+    image: employeeservice
+    build:
+      context: .\EmployeeService
+      dockerfile: Dockerfile
