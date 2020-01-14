@@ -57,6 +57,12 @@
                                    value="Login with Google" class="btn btn-success" />
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            <input type="button" id="btnFacebookLogin"
+                                   value="Login with Facebook" class="btn btn-success" />
+                        </td>
+                    </tr>
                 </tbody>
             </table>
             <!--Bootstrap alert to display error message if the login fails-->
@@ -72,7 +78,12 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
+            
             getAccessToken();
+
+            $('#btnFacebookLogin').click(function () {
+                window.location.href = "/api/Account/ExternalLogin?provider=Facebook&response_type=token&client_id=self&redirect_uri=http%3A%2F%2Flocalhost%3A61748%2FLogin.html&state=O-jCXTylK0zNW0qSb4YJnPJx08WpvliWzrIGzb2dwRQ1";
+            });
             $('#btnGoogleLogin').click(function () {
                 window.location.href = "/api/Account/ExternalLogin?provider=Google&response_type=token&client_id=self&redirect_uri=http%3A%2F%2Flocalhost%3A61748%2FLogin.html&state=e-mLmpT0kW9HyicmWb1RsEpcxDxdMXYbGlp-Df9-dts1";
             });

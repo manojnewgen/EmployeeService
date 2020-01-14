@@ -10,7 +10,9 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using EmployeeService.Providers;
 using EmployeeService.Models;
-
+using Microsoft.Owin.Security.Facebook;
+using EmployeeService.Facebook;
+using System.Reflection;
 namespace EmployeeService
 {
     public partial class Startup
@@ -55,10 +57,20 @@ namespace EmployeeService
             //app.UseTwitterAuthentication(
             //    consumerKey: "",
             //    consumerSecret: "");
+            var facebookOptions = new FacebookAuthenticationOptions()
+            {
+                AppId = "2690820844472458",
+                AppSecret = "5bccc20acd41d191163f9e36503519fb",
+                BackchannelHttpHandler = new FacebookBackChannelHandler(),
+                UserInformationEndpoint = "https://graph.facebook.com/v2.4/me?fields=id,email"
+            };
 
-            //app.UseFacebookAuthentication(
-            //    appId: "",
-            //    appSecret: "");
+            facebookOptions.Scope.Add("email");
+            app.UseFacebookAuthentication(facebookOptions);
+
+            app.UseFacebookAuthentication(
+                appId: "2690820844472458",
+                appSecret: "5bccc20acd41d191163f9e36503519fb");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
